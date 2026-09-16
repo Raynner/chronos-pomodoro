@@ -3,6 +3,8 @@ import { CountDown } from "../../components/CountDown";
 import { MainForm } from "../../components/MainForm";
 import { MainTemplate } from "../../templates/MainTemplate";
 
+
+
 export function Home () {
     return ( 
       <MainTemplate>
@@ -11,7 +13,7 @@ export function Home () {
         </Container>
         
         <Container>
-            <MainForm/>
+            <MainForm />
         </Container>
       </MainTemplate>   
 )
