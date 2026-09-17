@@ -1,7 +1,7 @@
 import type { TaskStateModel } from "./TaskStateModel";
 
 
-export type taskModule = {
+export type taskModel = {
     id: string;
     name: string;
     duration: number;
